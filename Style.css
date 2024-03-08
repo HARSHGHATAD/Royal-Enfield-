@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: #000000;
+
+}
+
+nav{
+    width: auto;
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    width: 200px;
+}
+
+nav .lol{
+    width: 100%;
+    height: 100%;
+}
+
+div .main{
+    padding-left:143px ;
+    margin-top: 10px;
+}
+
+div .lob{
+    margin-left: 625px;
+    margin-top: 50px;
+}
+
+div .lot{
+    margin-left: 219px;
+    margin-top: 50px;
+}
+
+div .pot{
+    margin-top: 5%;
+    margin-left: 24%;
+    padding: 15px 20px;
+    width: 410px;
+    height: 59px;
+    font-family: "montserrat-regular";
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .2s ease all;
+    line-height: 16px;
+    position: relative;
+}
+.not{
+    display: flex;
+}
+div .top{
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 15px 20px;
+    width: 400px;
+    height: 58px;
+    font-family: "montserrat-regular";
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .2s ease all;
+    line-height: 16px;
+    position: relative;
+}
+
+div .tel{
+    margin-top: 12%;
+    margin-left: -58%;
+}
+
+.box{
+    margin-top: 155px;
+    margin-left: 20px;
+}
+
+div .let{
+    padding: 15px 20px;
+    width: auto;
+    height: auto;
+    font-family: "montserrat-regular";
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .2s ease all;
+    line-height: 16px;
+    position: relative;
+}
+
+
+/*ZIPCODE*/
+
+.zipcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.zipcode::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(2rem);
+    transform: translateY(0.8rem) scale(0.7);
+    z-index: -1;
+}
+
+.zipcode input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 20rem;
+    font-size: 1.6rem;
+    padding: 2.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.2rem;
+    color: #f3eeee;
+}
+
+.zipcode label {
+    position: absolute;
+    top: 1.8rem;
+    left: 2.5rem;
+    color: #f9f2f2;
+    font-size: 1.8rem;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.zipcode input:focus + label,
+.zipcode input:valid + label {
+    transform: translateY(-0.8rem);
+    font-size: 1.4rem;
+}
+
+.box p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+} 
+
+.dop{
+    margin-top: 5%;
+    margin-inline-start: 354px;
+    margin-inline-end: 241px;
+}
+
+.checkbox{
+    margin-top: 40px;
+    align-items: center;
+    margin-inline: 355px;
+}
+.and{
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.btn{
+    margin-top: 2%;
+    margin-left: 354px;
+    padding: 15px 20px;
+    width: auto;
+    height: auto;
+    font-family: "montserrat-regular";
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .2s ease all;
+    line-height: 16px;
+    position: relative;
+    cursor:pointer;
+}
+
+.pod{
+    margin-top: 2%;
+    margin-inline: 5%;
+    font-size: 15px;
+}
+
+/* DROPDOWN*/
+
+.dropdown{
+    margin-top: 300px;
+    float: right;
+}
